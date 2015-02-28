@@ -64,8 +64,8 @@
     <script>
     $(document).ready(function () {
 
-            $(".button").click(function (){
-
+            $(".button").click(function (event){
+                alert(event.currentTarget);
                 $(".button").css("opacity", 0.5);
 
                 $(this).css("opacity", 1);

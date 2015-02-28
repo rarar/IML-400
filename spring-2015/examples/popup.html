@@ -129,6 +129,7 @@ h2{
 	<div class="person" id="leonardo">Leonardo</div>
 	<div class="person" id="michaelangelo">Michaelangelo</div>
 	<div class="person" id="donatello">Donatello</div>
+	<div class="person" id="dali">Salvador Dali</div>
 
 	<div id="bg-popup"></div>
 
@@ -147,12 +148,12 @@ h2{
 	<script type="application/x-javascript">
 		$(".person").click(function() {
 			fillInfo($(this).attr('id'));	
-			$("#bg-popup").fadeIn('slow');
-			$("#about-wrapper").fadeIn('slow');
+			$("#bg-popup").fadeIn('fast');
+			$("#about-wrapper").fadeIn('fast');
 		});
 		$("#close-button").click(function() {
-			$("#bg-popup").fadeOut('slow');
-			$("#about-wrapper").fadeOut('slow');
+			$("#bg-popup").fadeOut('fast');
+			$("#about-wrapper").fadeOut('fast');
 		});
 	</script>
 </body>
